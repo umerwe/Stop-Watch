@@ -361,5 +361,8 @@ body {
         width: 10rem;
         height: 10rem;
     }
+    .control-buttons button:nth-child(3) i{
+        font-size: 3.6rem;
+    }
 }
 
