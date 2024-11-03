@@ -16,7 +16,7 @@ let [minutesOffset, secondsOffset, millisecondsOffset] = [0, 0, 0]; // Offset ti
 let timer = null; // Timer interval variable
 let lapIndex = 1; // Index for lap results
 const maxDisplayedLaps = 6; // Maximum number of laps to display
-localStorage.clear();
+
 // Main stopwatch function
 function updateStopwatch() {
     // Update main timer
