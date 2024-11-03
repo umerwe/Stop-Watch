@@ -15,8 +15,8 @@ let [minutesMain, secondsMain, millisecondsMain] = [0, 0, 0]; // Main timer valu
 let [minutesOffset, secondsOffset, millisecondsOffset] = [0, 0, 0]; // Offset timer for lap times
 let timer = null; // Timer interval variable
 let lapIndex = 1; // Index for lap results
-const maxDisplayedLaps = 9; // Maximum number of laps to display
-
+const maxDisplayedLaps = 6; // Maximum number of laps to display
+localStorage.clear();
 // Main stopwatch function
 function updateStopwatch() {
     // Update main timer
